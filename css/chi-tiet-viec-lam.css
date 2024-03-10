@@ -1,0 +1,153 @@
+/*Ten va so nguoi quan tam*/
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nguoi-quan-tam{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nguoi-quan-tam h5{
+		color: var(--main-color1);
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nguoi-quan-tam .button-quan-tam{
+		cursor: pointer;
+	}.chi-tiet-viec-lam .thong-tin-viec-lam .nguoi-quan-tam .button-quan-tam .icon{
+		font-size: 30px;
+		top: 10px;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nguoi-quan-tam .button-quan-tam:hover{
+		color: var(--main-color2);
+	}
+
+/*Nha tuyen dung*/
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nha-tuyen-dung{
+		box-shadow: 3px 3px 20px var(--border-color1);
+		padding: 20px 2%;
+		border-radius: 10px;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nha-tuyen-dung .theo-doi{
+		margin: 10px 0;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nha-tuyen-dung .theo-doi .button-theo-doi{
+		border: 1px solid black;
+		padding: 5px 10px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nha-tuyen-dung .theo-doi .button-theo-doi:hover{
+		background-color: grey;
+		color: white;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nha-tuyen-dung .ten-nha-tuyen-dung{
+		display: inline;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .nha-tuyen-dung a{
+		color: var(--link-color1);
+		text-decoration: none;
+	}
+
+/*Ung tuyen va chia se*/
+	.chi-tiet-viec-lam .thong-tin-viec-lam .yeu-cau{
+		text-align: center;
+		color: var(--main-color2);
+		border: 1px double grey;
+		padding: 10px 0;
+		margin-top: 20px;
+		clear: both;
+		position: relative;
+	}
+	
+	.chi-tiet-viec-lam .thong-tin-viec-lam .chia-se{
+		position: relative;
+		z-index: 1000;
+		bottom: 15px;
+		right: 30px;
+		display: none;
+	}
+	.chi-tiet-viec-lam .thong-tin-viec-lam .chia-se .noi-dung{
+		width: 350px;
+		background-color: white;
+		border: 2px solid var(--link-color1);
+		position: relative;
+		top: 9px;
+		left: 30px;
+		border-radius: 10px;
+		text-align: center;
+		padding: 5px 0;
+	}
+
+/*Thong tin viec lam */
+	.chi-tiet-viec-lam .thong-tin-viec-lam .chi-muc-con{
+		padding: 5px 10px;
+		border: none;
+		border-radius: 15px;
+	}
+
+	.chi-tiet-viec-lam .thong-tin-chi-tiet .mo-ta-cong-viec{
+		border: 1px solid var(--border-color1);
+		margin: 10px 0;
+		padding: 10px 1%;
+		border-radius: 10px;
+	}
+
+/*Side-bar*/
+	.chi-tiet-viec-lam .side-bar .tieu-de{
+		background-color: var(--main-color1);
+		padding: 10px 5px;
+		color: white;
+	}
+	.chi-tiet-viec-lam .side-bar{
+		height: fit-content;
+		padding: 10px 5px;
+	}
+	.chi-tiet-viec-lam .side-bar .viec-lam-lien-quan{
+		cursor: pointer;
+		border: 1px solid #dee2e6;
+		padding: 5px 1%;
+		margin-bottom: 10px;
+	}
+	.chi-tiet-viec-lam .side-bar .viec-lam-lien-quan:hover{
+		box-shadow: 3px 3px 20px #b2bec3;
+		transition: 0.5s;
+	}
+	.chi-tiet-viec-lam .side-bar .viec-lam-lien-quan h4{
+		color: var(--main-color1);
+	}
+	.chi-tiet-viec-lam .side-bar .viec-lam-lien-quan .thoi-gian{
+		text-align: right;
+	}
+
+/*Bao cao cong viec*/
+	.bao-cao-cong-viec{
+		color: var(--delete-color);
+		text-align: right;
+		cursor: pointer;
+	}
+
+	.bao-cao-cong-viec span{
+		font-size: 30px;
+	}
+
+/*Danh gia cong viec*/
+	.danh-gia-cong-viec{
+		padding: 20px 2%;
+		margin: 20px 0;
+		border-radius: 10px;
+		box-shadow: 3px 3px 20px var(--border-color1);
+	}
+	.danh-gia-cong-viec .danh-gia-cua-ung-vien{
+		padding: 10px 2%;
+		margin-bottom: 10px;
+		border: 1px solid var(--border-color1);
+		border-radius: 10px;
+	}
+	.danh-gia-cong-viec .danh-gia-cua-ung-vien .phan-dau h5{
+		display: inline;
+	}
+	.danh-gia-cong-viec .danh-gia-cua-ung-vien .thoi-gian-danh-gia{
+		text-align: right;
+	}
+	.danh-gia-cong-viec .danh-gia-cua-ung-vien .noi-dung h5{
+		color: #f1c40f;
+	}
+	.danh-gia-cong-viec .chu-thich{
+		color: var(--main-color1);
+	}

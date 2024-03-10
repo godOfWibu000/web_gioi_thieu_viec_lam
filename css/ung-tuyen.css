@@ -1,0 +1,16 @@
+.ung-tuyen-viec-lam{
+	padding: 20px 2%;
+}
+
+.ung-tuyen-viec-lam .thong-tin-viec-lam, .ung-tuyen-viec-lam .ung-tuyen{
+	box-shadow: 3px 3px 20px var(--border-color1);
+	margin: 20px 0;
+	padding: 20px 2%;
+	border-radius: 10px;
+}
+
+.ung-tuyen-viec-lam .ung-tuyen input,
+.ung-tuyen-viec-lam .ung-tuyen select{
+	width: 100%;
+}
+

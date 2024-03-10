@@ -1,0 +1,38 @@
+/*Danh sach viec lam*/
+	.tieu-de-noi-dung h2{
+		width: fit-content;
+		padding-bottom: 5px;
+		border-bottom: 2px solid var(--main-color1);
+	}
+
+	.ds-vieclam .vieclam .noi-dung{
+		cursor: pointer;
+		padding: 10px 1%;
+		border: 1px solid var(--border-color1);
+	}
+	.ds-vieclam .vieclam .noi-dung:hover{
+		box-shadow: var(--box-shadow);
+		transition: var(--hover-transition);
+	}
+	.ds-vieclam .vieclam .noi-dung .head{
+		display: block;
+	}
+	.ds-vieclam .vieclam .noi-dung .head .tieu-de{
+		color: var(--main-color1);
+		float: left;
+		height: 50px;
+	}
+	.ds-vieclam .vieclam .noi-dung .ten-nha-tuyen-dung{
+		text-decoration: none;
+		color: var(--link-color1);
+		width: 100%;
+		display: inline-block;
+	}
+	.ds-vieclam .vieclam .noi-dung .foot{
+		display: inline-block;
+		width: 100%;
+	}
+	.ds-vieclam .vieclam .noi-dung .xem-chi-tiet{
+		width: 100%;
+		padding: 3px;
+	}

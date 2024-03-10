@@ -1,0 +1,13 @@
+.kinh-nghiem{
+	width: 40%;
+	float: left;
+}
+
+.hocvan-linhvuc{
+	width: 58%;
+	float: right;
+}
+.thong-tin-bo-sung{
+	border-bottom: 1px solid var(--border-color1);
+	border-left: 1px solid var(--border-color1);
+}

@@ -1,0 +1,11 @@
+.quan-ly-du-lieu .quan-ly{
+	width: 48%;
+	height: 500px;
+	overflow: auto;
+}
+
+@media screen and (max-width: 768px){
+	.quan-ly-du-lieu .quan-ly{
+		width: 100%;
+	}
+}

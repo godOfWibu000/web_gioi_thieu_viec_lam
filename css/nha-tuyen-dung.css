@@ -1,0 +1,90 @@
+.title{
+	text-align: center;
+}
+
+.nha-tuyen-dung .anh-bia{
+	height: 200px;
+	background-image: URL(https://phunugioi.com/wp-content/uploads/2022/06/Hinh-nen-phong-canh.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: sticky;
+	top: 110px;
+}
+
+.nha-tuyen-dung .noi-dung{
+	position: relative;
+	bottom: 110px;
+}
+.nha-tuyen-dung .noi-dung .phan-dau{
+	display: flex;
+	padding: 0 0 10px 10px;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1.0));
+}
+.nha-tuyen-dung .noi-dung .phan-dau .anh-dai-dien{
+	width: 100px;
+	margin-right: 20px;
+}
+.nha-tuyen-dung .noi-dung .phan-dau .anh-dai-dien img{
+	border-radius: 50%;
+	border: 2px solid var(--main-color1);
+	padding: 2px;
+}
+.nha-tuyen-dung .noi-dung .phan-dau .ten-nha-tuyen-dung h2{
+	position: relative;
+	top: 25px;
+}
+.nha-tuyen-dung .noi-dung .phan-dau .ten-nha-tuyen-dung .theo-doi{
+	margin-top: 15px;
+	display: flex;
+}
+.nha-tuyen-dung .noi-dung .phan-dau .ten-nha-tuyen-dung .theo-doi h5{
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+.nha-tuyen-dung .noi-dung .phan-than .linh-vuc-hoat-dong{
+	display: flex;
+	margin-bottom: 30px;
+}
+.nha-tuyen-dung .noi-dung .phan-than .lien-ket span i{
+	background-color: var(--link-color1);
+	padding: 10px 10px;
+	margin: 0 10px;
+	color: white;
+	border-radius: 50%;
+}
+
+.ds-nha-tuyen-dung .nha-tuyen-dung{
+	text-align: center;
+	padding: 0 10px;
+}
+.ds-nha-tuyen-dung .nha-tuyen-dung .anh-dai-dien img{
+	border: 2px solid var(--main-color1);
+	border-radius: 50%;
+	margin: 10px auto;
+}
+
+#anh-bia-nha-tuyen-dung.opacity-anh-bia{
+	opacity: 0;
+    transition: var(--hover-transition);
+}
+.slick-prev:before,
+.slick-next:before {
+    font-family: fontawesome;
+    color: black;
+    background-color: var(--main-color1);
+    border-radius: 50%;
+}
+
+.slick-prev:before {
+    content: '\e5c8';
+}
+
+.slick-prev{
+	color: black;
+}
+
+.slick-next:before {
+    content: '\f060';
+}

@@ -1,0 +1,173 @@
+/*Thong tin tai khoan*/
+	.thong-tin-tai-khoan{
+		overflow: auto;
+	}
+	.thong-tin-tai-khoan .noi-dung .thong-tin{
+		display: flex;
+		justify-content: space-between;
+		margin: 10px 0;
+	}
+	.thong-tin-tai-khoan button{
+		border: none;
+		background: none;
+		font-size: 20px;
+	}
+	.thong-tin-tai-khoan .cai-dat span{
+		font-size: 35px;
+	}
+
+/*Quan ly tai khoan*/
+	.quan-ly-tai-khoan .tuy-chon .chon{
+		border: 1px solid var(--main-color2);
+	}
+
+	.quan-ly-tai-khoan .doi-mat-khau{
+		display: none;
+	}
+
+	.quan-ly-tai-khoan .doi-mat-khau input,
+	.quan-ly-tai-khoan .doi-mat-khau button{
+		width: 100%;
+	}
+
+/*Tuy chon tai khoan*/
+	.tuy-chon-tai-khoan{
+		margin: 10px auto;
+	}
+	.tuy-chon-tai-khoan .menu-tuy-chon{
+		display: flex;
+		margin: auto;
+	}
+
+	#tuy-chon-quan-ly-tai-khoan-1,
+	.tuy-chon-tai-khoan .menu-tuy-chon h4:hover{
+		border: 1px solid var(--main-color2);
+	}
+
+/*Thong tin ung vien*/
+/*Thong tin co ban*/
+	.thong-tin-co-ban,
+	.thong-tin-bo-sung{
+		border-radius: 0 0 10px 10px;
+	}
+
+	.thong-tin-tai-khoan .taskbar,
+	.thong-tin-ung-vien .taskbar{
+		height: 40px;
+		background-color: var(--main-color3);
+		display: flex;
+		justify-content: space-between;
+	}
+	.thong-tin-co-ban .taskbar .items,
+	.thong-tin-tai-khoan .taskbar .items {
+		display: flex;
+	}
+	.thong-tin-tai-khoan .taskbar .items{
+		width: 100%;
+		justify-content: space-between;
+	}
+	.thong-tin-ung-vien .thong-tin-bo-sung .taskbar .items{
+		display: flex;
+		margin: auto;
+	}
+	.thong-tin-ung-vien .thong-tin-bo-sung .taskbar .item{
+		width: 10px;
+		height: 10px;
+		background-color: var(--main-color2);
+		border-radius: 50%;
+		margin: 0 20px;
+	}
+	.thong-tin-ung-vien .thong-tin-co-ban .taskbar .item,
+	.thong-tin-tai-khoan .taskbar .item{
+		width: 10px;
+		height: 40px;
+		background-color: var(--main-color2);
+		margin: 0 20px 20px 20px;
+		border-radius: 5px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.thong-tin-ung-vien .thong-tin-co-ban .phan-dau{
+		display: flex;
+		justify-content: space-between;
+	}
+	.thong-tin-ung-vien .thong-tin-co-ban .phan-dau .anh-va-ten{
+		width: 50%;
+	}
+	.avatar{
+		font-size: 50px;
+		font-weight: 1000;
+		padding: 10px;
+		background-color: var(--main-color2);
+		width: 80px;
+		color: white;
+		border-radius: 50%;
+		text-align: center;
+	}
+
+	.thong-tin-ung-vien .thong-tin-co-ban .phan-dau .anh-dai-dien{
+		margin-right: 2%;
+	}
+
+/*Thong tin bo sung*/
+	.thong-tin-bo-sung .muc-thong-tin-bo-sung-1{
+		background-color: var(--border-color2);
+	}
+
+	.thong-tin-ung-vien .thong-tin-bo-sung .thong-tin-bo-sung-item{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.tuy-chon span{
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+/*Bo sung, sua thong tin ung vien*/
+	/*Form chung*/
+		.chinh-sua-thong-tin-ung-vien{
+			padding: 20px 2%;
+			margin: 20px 0;
+			border-radius: 10px;
+			box-shadow: 3px 3px 20px var(--border-color1);
+		}
+		.chinh-sua-thong-tin-ung-vien h3{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.chinh-sua-thong-tin-ung-vien label{
+			width: 150px;
+		}
+		.chinh-sua-thong-tin-ung-vien input{
+			width: calc(100% - 160px);
+			margin-bottom: 5px;
+		}
+
+	/*Bo sung thong tin ung vien*/
+		.bo-sung-thong-tin-ung-vien .bo-sung-thong-tin-chi-tiet{
+			margin-top: 20px;
+		}
+
+	/*Sua thong tin ung vien*/
+		.sua-thong-tin-ung-vien .phan-dau{
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.sua-thong-tin-ung-vien .phan-dau .dong{
+			font-size: 30px;
+			cursor: pointer;
+		}
+
+@media screen and (max-width: 768px){
+	.tuy-chon-tai-khoan .menu-tuy-chon h4{
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.chinh-sua-thong-tin-ung-vien input{
+		width: 100%;
+	}
+}

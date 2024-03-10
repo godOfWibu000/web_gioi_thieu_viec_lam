@@ -1,0 +1,13 @@
+.dang-ky-tai-khoan{
+	max-width: 1920px;
+	margin: auto;
+	height: 100vh;
+}
+
+.dang-ky-tai-khoan .noi-dung{
+	width: 80%;
+	height: 100vh;
+	margin: auto;
+	background-color: white;
+	overflow: auto;
+}

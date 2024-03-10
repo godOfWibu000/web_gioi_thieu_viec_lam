@@ -1,0 +1,86 @@
+.quan-ly-nha-tuyen-dung{
+	max-width: 1920px;
+	margin: auto;
+}
+#noi-dung-taskbar-quan-ly-nha-tuyen-dung{
+	opacity: 0;
+}
+
+.quan-ly-thong-tin-bo-sung-nha-tuyen-dung{
+	overflow: auto;
+}
+.tuy-chon span{
+	font-size: 30px;
+}
+
+/*Task-bar*/
+	.taskbar{
+		width: 350px;
+		height: 100vh;
+		background-color: var(--main-color3);
+		position: fixed;
+		transform: translateX(-290px);
+		transition: 0.5s;
+		z-index: 2000;
+	}
+	.taskbar .phan-dau{
+		display: flex;
+		padding: 10px;
+		justify-content: space-between;
+		line-height: 30px;
+		color: white;
+	}
+	.taskbar .menu ul li a{
+		color: white;
+		font-size: 20px;
+		display: block;
+		padding: 10px 0;
+	}
+	.taskbar .menu ul li a:hover{
+		background-color: var(--main-color1);
+		transition: 0.5s;
+	}
+	.taskbar .tai-khoan-nha-tuyen-dung{
+		width: 100%;
+		position: absolute;
+		bottom: 10px;
+		padding: 10px;
+		color: white;
+		cursor: pointer;
+	}
+	.taskbar .tai-khoan-nha-tuyen-dung .dang-xuat{
+		color: var(--delete-color);
+		margin: 10px 0;
+	}
+
+/*Noi dung quan ly*/
+	.noi-dung-quan-ly{
+		padding-left: 80px;
+		overflow: auto;
+	}
+	.noi-dung-quan-ly .thong-bao-bo-sung-thong-tin{
+		text-align: center;
+	}
+
+	.thong-bao-bo-sung-thong-tin .button-bo-sung-thong-tin{
+		font-size: 100px;
+	}
+
+	.mo-rong-thong-tin{
+		text-align: center;
+		position: relative;
+	}
+	.mo-rong-thong-tin span{
+		font-size: 40px;
+		background-color: var(--main-color2);
+		color: white;
+		border-radius: 50%;
+		position: absolute;
+		top: -20px;
+	}
+	.mo-rong-thong-tin .line{
+		width: 100%;
+		border-top: 2px solid var(--border-color1);
+	}
+
+/*Viec lam*/

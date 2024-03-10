@@ -1,0 +1,205 @@
+.page{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.content{
+	max-width: 1280px;
+	margin: auto;
+}
+
+/*Tieu de dau trang*/
+	.tieu-de-dau-trang-chung{
+		background-image: URL("../img/background.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.tieu-de-dau-trang-chung .noi-dung{
+		background-color: rgba(0, 0, 21, 0.7);
+		color: white;
+		padding: 10px;
+	}
+	.tieu-de-dau-trang-chu{
+		height: fit-content;
+	}
+	.tieu-de-dau-trang{
+		height: 200px;
+	}
+	.tieu-de-dau-trang .noi-dung{
+		height: 200px;
+	}
+	.tieu-de-dau-trang .noi-dung h1{
+		width: fit-content;
+		margin: auto;
+		position: relative;
+		top: 70px;
+	}
+
+/*Danh nhap*/
+	#login-frame .dong{
+		font-size: 30px;
+		padding: 10px;
+	}
+	#login-frame>button{
+		background: none;
+		border: none;
+		float: right;
+		padding: 10px;
+	}
+	#login-frame form{
+		padding: 10px 2% 0 2%;
+	}
+	#login-frame form input{
+		width: 100%;
+	}
+	#login-frame form .password{
+		width: 90%;
+	}
+	#login-frame form .gui-dang-nhap{
+		width: 100%;
+		background-color: var(--main-color1);
+		border: none;
+		color: white;
+	}
+	#login-frame form .gui-dang-nhap:hover{
+		opacity: 0.8;
+		transition: var(--hover-transition);
+	}
+	#login-frame form .an-hien-mat-khau{
+		width: 9%;
+		height: 33px;
+		position: relative;
+		top: 2px;
+		border: 1px solid var(--border-color1);
+		border-radius: 10px;
+		background-color: white;
+	}
+	#login-frame form .an-hien-mat-khau:hover{
+		background-color: grey;
+		color: white;
+	}
+	#login-frame .noi-dung form .quen-mat-khau{
+		display: inline-block;
+		float: right;
+	}
+	#message{
+		clear: both;
+	}
+	#login-frame .dang-ky{
+		display: flex;
+		width: fit-content;
+		margin: auto;
+	}
+
+/*Header*/
+	#toggle .menu-icon-text{
+		bottom: 6px;
+		position: relative;
+	}
+	header{
+		border-bottom: 1px solid black;
+		position: sticky;
+		top: 0;
+		z-index: 1000;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	header .head{
+		padding: 5px 0;
+	}
+	header .head .login{
+		line-height: 50px;
+	}
+	header .head .login a{
+		text-decoration: none;
+		color: var(--main-color2);
+		padding: 0 20px;
+	}
+	#toggle{
+	    display: none;
+	}
+	#menu{
+		display: flex;
+		list-style-type: none;
+	}
+	header .nav ul li a{
+		text-decoration: none;
+		padding: 5px 30px;
+		display: block;
+		color: black;
+	}
+	#home{
+		background-color: #e74c3c;
+		color: white;
+		border-radius: 10px;
+	}
+	header .nav ul li a:hover{
+		background-color: var(--main-color1);
+		color: white;
+		border-radius: 10px;
+	}
+
+	header .tim-kiem{
+		height: 30px;
+	}
+
+/*Len dau trang*/
+	#up-top{
+	    height: 45px;
+	    width: 45px;
+	    position: fixed;
+	    z-index: 2000;
+	    bottom: 20px;
+	    left: 90%;
+	    background-color: white;
+	    cursor: pointer;
+	    opacity: 0;
+	}
+	#up-top span{
+		font-size: 40px;
+	}
+	#up-top.up-top-top{
+	    opacity: 0.8;
+	    transition: 1s;
+	}
+
+/*Footer*/
+	footer{
+		background-color: var(--main-color3);
+		clear: both;
+	}
+	footer .footer-top-1, footer .footer-top-2, footer .footer-top-3{
+		color: white;
+	}
+	footer .footer-top-3 input{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.copyright{
+		padding: 5px;
+		color: white;
+	}
+
+/*Responsive*/
+	@media screen and (max-width:768px){
+		header .nav ul{
+			flex-direction: column;
+		}
+
+		#menu{
+			display: none;
+			position: relative;
+		}
+		#toggle{
+        	display: block;
+    	}
+    	#login-frame .noi-dung{
+			width: 90%;
+		}
+		#login-frame .noi-dung form .password{
+			width: 80%;
+		}
+		#login-frame .noi-dung form .an-hien-mat-khau{
+			width: 18%;
+		}
+	}

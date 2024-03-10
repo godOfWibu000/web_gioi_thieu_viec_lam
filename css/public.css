@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+/*Scrollbar*/
+	::-webkit-scrollbar {
+	  width: 5px;
+	}
+
+	::-webkit-scrollbar-thumb {
+	  background: var(--main-color2); 
+	  border-radius: 5px;
+	}
+
+/*Cac bien*/
+	:root{
+		--main-color1: #e74c3c;
+		--main-color2: #00a8ff;
+		--main-color3: #353b48;
+		--link-color1: #3498db;
+		--border-color1: #bdc3c7;
+		--border-color2: #ecf0f1;
+		--border-color3: #f5f6fa;
+		--success-color: #27ae60;
+		--delete-color: #d63031;
+
+		--main-margin: 10px 0;
+		--main-padding: 10px 1%;
+		--border-radius: 10px;
+		--box-shadow: 3px 3px 20px var(--border-color1);
+
+		--hover-transition: 0.5s;
+		--hover-button-opacity: 0.8;
+	}
+
+/*Class chung*/
+	.a{
+		text-decoration: none;
+	}
+
+	.icon1{
+		position: relative;
+		top: 5px;
+	}
+
+	.icon-button{
+		cursor: pointer;
+	}
+
+	.cursor-pointer{
+		cursor: pointer;
+	}
+
+	.width-100{
+		width: 100%;
+	}
+
+	.lien-ket-internet i{
+		width: 50px;
+		padding: 10px 0;
+		margin: 0 10px;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		background-color: var(--border-color1);
+		border-radius: 50%;
+		cursor: pointer;
+	}
+
+	.lien-ket-internet i:hover{
+		background-color: var(--main-color2);
+		transition: var(--hover-transition);
+	}
+
+	.icon-lien-ket-internet{
+		font-size: 30px;
+	}
+	/* Khung */
+	.cua-so{
+		height: 80vh;
+		background-color: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		border-radius: 10px;
+		z-index: 3000;
+		overflow: auto;
+		transform: translateY(-150%);
+		transition: var(--hover-transition);
+	}
+
+	.cua-so-nho{
+		width: 60%;
+		margin: 10vh 20%;
+	}
+
+	.cua-so-lon{
+		width: 80%;
+		top: 7vh;
+		left: 10%;
+	}
+
+	.nen-cua-so{
+		width: 100%;
+		height: 120vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 2000;
+		background-color: rgba(0, 0, 0, 0.3);
+		display: none;
+	}
+	.margin{
+		margin: 20px 0;
+	}
+	.padding{
+		padding: 10px 2%;
+	}
+
+	/*Button*/
+		.button{
+			box-sizing: border-box;
+			border-radius: var(--border-radius);
+			font-size: 20px;
+			border: none;
+			border-radius: var(--border-radius);
+			color: white;
+			padding: 1px 5px;
+			box-sizing: border-box;
+			cursor: pointer;
+		}
+		.button-100{
+			width: 100%;
+		}
+		.button-50{
+			width: 50%;
+			margin: 10px 2%;
+		}
+		.button:hover{
+			opacity: var(--hover-button-opacity);
+			transition: var(--hover-transition);
+		}
+		.button-main{
+			background-color: var(--main-color1);
+		}
+		.button-create{
+			background-color: var(--main-color2);
+		}
+		.button-reset{
+			background-color: orange;
+		}
+		.button-success{
+			background-color: var(--success-color);
+		}
+		.button-delete{
+			background-color: var(--delete-color);
+		}
+		.button-menu{
+			width: 250px;
+			font-size: 20px;
+			padding: 3px 2%;
+			border: 1px solid grey;
+			border-radius: 20px;
+		}
+		.button-menu:hover{
+			border: 1px solid var(--main-color2);
+			transition: var(--hover-transition);
+		}
+
+	.box-shadow{
+		box-shadow: var(--box-shadow);
+	}
+	.border-radius{
+		border-radius: var(--border-radius);
+	}
+
+	/*Form*/
+		.form-item{
+
+		}
+		.input{
+			border-radius: var(--border-radius);
+			border: 1px solid var(--border-color1);
+			outline: none;
+			padding: 0 5px;
+			font-size: 20px;
+		}
+		.select{
+			font-size: 20px;
+			text-align: center;
+			border-radius: 20px;
+			border: 1px solid var(--border-color1);
+			padding: 3px 5px;
+			outline: none;
+		}
+		.textarea{
+			width: 100%;
+			height: 150px;
+			border: 1px solid var(--border-color1);
+			border-radius: 10px;
+			font-size: 20px;
+			padding: 3px 5px;
+			outline: none;
+		}
+
+	.chi-muc{
+		width: fit-content;
+		padding: 5px 2%;
+		margin: 10px 0;
+		border-radius: 20px;
+		font-size: 20px;
+	}
+
+	.flex{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.flex-between{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.color-black{
+		color: black;
+	}
+	.color-button{
+		color: white;
+	}
+	.color-create{
+		color: var(--main-color2);
+	}
+	.color-reset{
+		color: orange;
+	}
+	.color-success{
+		color: var(--success-color);
+	}
+	.color-delete{
+		color: var(--delete-color);
+	}
+
+	.background-border2{
+		background-color: var(--border-color2);
+	}
+	.background-success{
+		background-color: var(--success-color);
+	}
+
+@media screen and (max-width: 768px){
+	.cua-so{
+		width: 96%;
+		margin: 10vh 2%;
+	}
+	.button-50{
+		width: 100%;
+	}
+}

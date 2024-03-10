@@ -1,0 +1,26 @@
+.tim-kiem .ket-qua-tim-kiem{
+	width: 66%;
+	margin-right: 1%;
+}
+
+.tim-kiem .bo-loc-tim-kiem{
+	padding: 10px 1%;
+	position: sticky;
+	top: 110px;
+	width: 33%;
+	height: 80vh;
+	overflow: scroll;
+}
+.tim-kiem .bo-loc-tim-kiem h4{
+	border-bottom: 2px solid var(--main-color1);
+	display: inline;
+}
+.tim-kiem .bo-loc-tim-kiem label, .tim-kiem .bo-loc-tim-kiem input{
+	font-size: 20px;
+}
+.tim-kiem .bo-loc-tim-kiem span{
+	float: right;
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+}

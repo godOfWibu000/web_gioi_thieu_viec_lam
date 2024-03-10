@@ -1,0 +1,66 @@
+.lien-he h3{
+	border-bottom: 2px solid var(--main-color1);
+	width: fit-content;
+	font-weight: 700;
+}
+/*Thong tin lien he*/
+	.thong-tin-lien-he{
+		margin: 10px 0;
+	}
+	.thong-tin-lien-he .lien-ket-internet a{
+		font-size: 30px;
+		padding: 0 10px;
+	}
+
+/*Form lien he*/
+	.form-lien-he{
+		margin-bottom: 20px;
+		border-radius: 20px;
+		padding: 10px;
+		box-shadow: 5px 5px 20px grey;
+		margin: 20px 0;
+	} 
+	.form-lien-he form{
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.form-lien-he form div{
+		margin: 10px 0;
+	}
+	.form-lien-he form .label1{
+		width: 80px;
+	}
+	.form-lien-he form .form-input{
+		outline: none;
+		padding-left: 5px;
+	}
+	.form-lien-he form .email{
+		width: calc(100% - 80px);
+	}
+	.form-lien-he form .ho-ten{
+		width: calc(50% - 80px);
+	}
+	.form-lien-he form .so-dien-thoai{
+		width: calc(50% - 151px);
+	}
+	.form-lien-he form textarea{
+		width: 100%;
+		height: 100px;
+	}
+	.form-lien-he form input[type="submit"]{
+		width: 100%;
+		background-color: var(--main-color1);
+		color: white;
+		padding: 5px 0;
+		border: none;
+	}
+	.form-lien-he form input[type="submit"]:hover{
+		opacity: var(--hover-button-opacity);
+		transition: var(--hover-transition);
+	}
+
+@media screen and (max-width:768px){
+	.form-lien-he form .form-input{
+		width: 100%;
+	}
+}

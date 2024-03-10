@@ -1,0 +1,71 @@
+/*Tim kiem nang cao*/
+	.tim-kiem-nang-cao .noi-dung form{
+		background-color: var(--main-color3);
+		border-radius: 20px;
+		padding: 10px;
+	}
+	.tim-kiem-nang-cao .noi-dung form h3{
+		color: white;
+	}
+	.tim-kiem-nang-cao .noi-dung form label{
+		width: 200px;
+		color: white;
+		font-size: 20px;
+	}
+	.tim-kiem-nang-cao .noi-dung form select{
+		font-size: 20px;
+		height: 40px;
+		margin: 10px 0;
+		width: calc(100% - 220px);
+		border-radius: 20px;
+		text-align: center;
+		outline: none;
+	}
+	.tim-kiem-nang-cao .noi-dung form input{
+		width: 100%;
+		height: 40px;
+		border-radius: 20px;
+		font-size: 20px;
+		margin: 20px 0;
+		color: white;
+		background-color: var(--main-color1);
+		border: none;
+	}
+	.tim-kiem-nang-cao .noi-dung form input:hover{
+		opacity: 0.8;
+	}
+
+/*Danh muc*/
+	.danh-muc .noi-dung{
+		height: 280px;
+		overflow-y: scroll;
+	}
+	.danh-muc table{
+		width: 100%;
+		background-color: white;
+	}
+	.danh-muc h3{
+		background-color: var(--main-color1);
+		color: white;
+		padding: 10px 5px;
+	}
+	.danh-muc table th{
+		border: 1px solid var(--border-color1);
+		padding: 10px 5px;
+	}
+	.danh-muc table th a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		display: block;
+	}
+	.danh-muc table th a:hover{
+		color: var(--main-color2);
+	}
+
+/*Respinsive*/
+	@media screen and (max-width:768px){
+		.tim-kiem-nang-cao .noi-dung form select{
+			width: 100%;
+		}
+	}
